@@ -20,7 +20,7 @@
     height: 100px;
     width: 100px;
 }
-    .navbar a {
+    .navbar ul li a {
   font-size: 22px;
 }
     /* header-section-ends */
@@ -175,6 +175,15 @@
 }
 
 @media only screen and (max-width: 767px){
+
+    /* header-section-starts */
+    .navbar ul {
+    column-gap: 50px;
+}
+.navbar ul li a {
+    font-size: 20px;
+}
+    /* header-section-ends */
     /* hero-section-starts */
     .hero_section {
     padding: 90px 0;
