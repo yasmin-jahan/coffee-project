@@ -350,7 +350,8 @@ footer{
     color: #fff;
     text-align: center;
 }
-.copywright_content p span{
+.copywright_content p a{
+    text-decoration: none;
     color: rgb(248, 92, 30);
 }
 /* footer-section-ends */
